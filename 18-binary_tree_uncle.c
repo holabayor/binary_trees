@@ -2,7 +2,7 @@
 
 
 /**
- * binary_trees_uncle - function that finds the uncle of a nodes
+ * binary_tree_uncle - function that finds the uncle of a nodes
  * @node: is a pointer to the node to find the uncle
  * Return: pointer to the uncle node or NULL if node/parent is NULL
  * If no uncle was found, return NULL
