@@ -16,7 +16,7 @@ const binary_tree_t *second)
 	binary_tree_t *tmp;
 
 
-	if ((!first->parent && !second->parent) || (!first && !second))
+	if ((!first->parent && !second->parent) || (!first || !second))
 		return (NULL);
 	tmp = (binary_tree_t *)second;
 	while (first)
